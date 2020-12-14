@@ -1,0 +1,352 @@
+/* == Typography == */
+#banner {
+  text-align: center;
+  font-size: .75em;
+  color: white;
+}
+
+body {
+  font-family: le-monde-livre-std, serif;
+  font-size: 1em;
+  line-height: 1.28em;
+}
+
+.navbar {
+  font-size: 1em;
+  text-align: center;
+  line-height: 3em;
+}
+
+footer {
+  font-size: 1.3em;
+  line-height: normal;
+  color: white;
+}
+
+.footerSection {
+  font-weight: 100;
+  text-align: center;
+}
+
+footer a {
+  color: #cab39f;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.splashText {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  line-height: 1.2;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+#smallSplash {
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
+  line-height: 1.2;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  text-align: center;
+  color: #405743;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.shopItem {
+  text-align: center;
+  font-size: 1.1em;
+  line-height: normal;
+  padding: 1.2em;
+}
+
+#profiledesc {
+  font-size: 1.1em;
+  line-height: normal;
+  color: black;
+}
+
+#copyright {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+/* == Background == */
+main,
+body {
+  background-color: #cab39f;
+}
+
+#splash {
+  background-image: url(images/splash-backing.jpg);
+  background-size: cover;
+}
+
+.button {
+  background-color: black;
+  font-family: le-monde-livre-std, serif;
+  font-size: .25em;
+}
+
+#banner {
+  background-color: #405743;
+}
+
+.navbar,
+footer {
+  background-color: #503c2e;
+}
+
+#sustainabilityMain {
+  background-color: #C1D9C2;
+}
+
+#splash1 {
+  background-image: url(images/frontpage1.jpg);
+  background-size: cover;
+  height: 40em;
+}
+
+#splash2 {
+  background-image: url(images/frontpage2.jpg);
+  background-size: cover;
+}
+
+#splash3 {
+  background-image: url(images/frontpage3.jpg);
+  background-size: cover;
+}
+
+/* == Box Model == */
+body {
+  margin: 0em;
+  padding: 0em;
+}
+
+header {
+  height: 4.5em;
+}
+
+.button {
+  border: 0;
+  padding: .7em;
+  margin-top: 15px;
+}
+
+.headercontainer {
+  height: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banner {
+  padding: .4em;
+}
+
+#logo {
+  max-height: 100%;
+  height: auto;
+  padding: 1em;
+  padding-left: 1em;
+}
+
+.navbar {
+  display: block;
+  width: 100%;
+}
+
+nav a {
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#splash {
+  height: 40em;
+}
+
+.splashText {
+  margin: auto;
+  padding-top: .5em;
+  display: block;
+  width: 60%;
+}
+
+#smallSplash {
+  height: 10em;
+}
+
+#aboutUs {
+  height: 35em;
+}
+
+#profilepicture {
+  max-height: 100%;
+  height: auto;
+}
+
+#profile {
+  height: inherit;
+  margin-left: auto;
+  margin-right: 10%;
+}
+
+#profiledesc {
+  margin: 7em;
+  display: block;
+  margin-left: 1em;
+  max-width: 20em;
+  max-height: 12em;
+}
+
+.itemphoto {
+  margin: auto;
+  width: 60%;
+  height: 80%;
+  display: block;
+  object-fit: cover;
+}
+
+.title {
+  padding-top: 1.2em;
+  display: block;
+}
+
+.price {
+  display: block;
+}
+
+.sizes {
+  display: block;
+  padding-bottom: 1.2em;
+}
+
+#sustainabilityMain {
+  display: block;
+}
+
+.sustainablephoto {
+  display: block;
+  margin: auto;
+  width: 3em;
+}
+
+#yarnphoto {
+  display: block;
+  margin: auto;
+  width: 20em;
+  height: 20em;
+  object-fit: cover;
+  padding-bottom: 2em;
+}
+
+p {
+  padding: 1em;
+  display: block;
+  width: 40em;
+  margin: auto;
+}
+
+footer {
+  padding: 3em;
+}
+
+.footerSection {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+#emailForm {
+  padding: 2em 0;
+}
+
+#copyright {
+  padding: 2em;
+}
+
+/* = Grid =*/
+header {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+footer {
+  display: grid;
+  row-gap: 1.3rem;
+  grid-template-columns: 50% 50%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+#aboutUs {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#app,
+#aboutUs,
+#splash,
+#smallSplash {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+/* = Flexbox = */
+#app,
+#splash {
+  display: flex;
+}
+
+#app,
+#splash,
+#smallSplash {
+  padding: 0em;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Font Awesome icons */
+.fab,
+.fas {
+  text-decoration: none;
+  margin-top: 2em;
+  color: black;
+  margin-bottom: auto;
+  padding-right: 1em;
+}
+
+.fas:hover,
+.fab:hover {
+  color: white;
+}
+
+/* = Other = */
+nav a:hover {
+  color: #cab39f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.itemphoto:hover {
+  box-shadow: -7px -7px #e8d3c5;
+}
